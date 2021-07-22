@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Plant Shop App UI</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_store">Store</string>
+    <string name="title_activity_forida_plant_store">Forida Plant Store</string>
+
+    <string name="text_back_icon">Back Icon</string>
+    <string name="text_menu_icon">Menu Icon</string>
+    <string name="text_search_icon">Search Icon</string>
+    <string name="text_filter_icon">Filter Icon</string>
+    <string name="text_add_icon">Add Icon</string>
+
+</resources>

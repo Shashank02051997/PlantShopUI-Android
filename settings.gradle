@@ -1,0 +1,2 @@
+rootProject.name = "Plant Shop App UI"
+include ':app'
