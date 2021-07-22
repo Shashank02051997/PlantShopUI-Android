@@ -28,6 +28,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.shashank.plantshopappui.R
+import com.shashank.plantshopappui.component.BottomBar
 import com.shashank.plantshopappui.component.TopBarWithBack
 import com.shashank.plantshopappui.theme.*
 
@@ -63,7 +64,8 @@ fun ForidaPlantStoreView() {
                 title = stringResource(R.string.title_activity_forida_plant_store),
                 onBackClick = { },
             )
-        }, backgroundColor = cottonBall,
+        }, bottomBar = { BottomBar() },
+            backgroundColor = cottonBall,
             content = {
                 Column(
                     modifier = Modifier
@@ -307,7 +309,7 @@ fun ForidaPlantStoreView() {
 
                         }
                     }
-
+                    Spacer(modifier = Modifier.height(104.dp))
                 }
             })
     }
