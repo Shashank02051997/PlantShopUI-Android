@@ -7,15 +7,6 @@
         <item name="colorPrimaryVariant">@color/defaultDayDark</item>
         <item name="android:textColor">@color/primaryTextColor</item>
 
-        <!-- Status bar color. -->
-        <!--
-        <item name="android:statusBarColor" tools:targetApi="l">?colorSurface</item>
-        <item name="android:windowLightStatusBar" tools:targetApi="m">@bool/lightNavEnabled</item>
-        <item name="android:navigationBarColor" tools:targetApi="o">?colorSurface</item>
-        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">@bool/lightNavEnabled
-        </item>
-        -->
-
     </style>
 
     <style name="Theme.PlantShopAppUI.NoActionBar">
