@@ -14,11 +14,6 @@
             android:name=".view.Store"
             android:exported="true"
             android:theme="@style/Theme.PlantShopAppUI.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
@@ -26,6 +21,17 @@
             android:exported="true"
             android:theme="@style/Theme.PlantShopAppUI.NoActionBar">
 
+        </activity>
+
+        <activity
+            android:name=".view.Payment"
+            android:exported="true"
+            android:theme="@style/Theme.PlantShopAppUI.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
     </application>

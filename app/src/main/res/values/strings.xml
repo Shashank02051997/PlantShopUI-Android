@@ -5,6 +5,7 @@
     <string name="title_activity_login">Login</string>
     <string name="title_activity_store">Store</string>
     <string name="title_activity_forida_plant_store">Forida Plant Store</string>
+    <string name="title_activity_payment">Payment</string>
 
     <string name="text_back_icon">Back Icon</string>
     <string name="text_menu_icon">Menu Icon</string>
