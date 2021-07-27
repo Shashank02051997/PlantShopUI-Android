@@ -7,7 +7,9 @@ Check out the new style for App Design aims for Online Plant Shop Service...😉
 
 <img src="https://github.com/Shashank02051997/PlantShopUI-Android/blob/main/Screenshots/Screenshot_20210722-115508.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/PlantShopUI-Android/blob/main/Screenshots/Screenshot_20210722-115515.png" height="600" width="300" hspace="40">
 
-<img src="https://github.com/Shashank02051997/PlantShopUI-Android/blob/main/Screenshots/Screenshot_20210722-131742.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/PlantShopUI-Android/blob/main/Screenshots/Screenshot_20210722-131747.png" height="600" width="300" hspace="40">
+<img src="https://github.com/Shashank02051997/PlantShopUI-Android/blob/main/Screenshots/Screenshot_20210727-125948.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/PlantShopUI-Android/blob/main/Screenshots/Screenshot_20210727-125957.png" height="600" width="300" hspace="40">
+
+<img src="https://github.com/Shashank02051997/PlantShopUI-Android/blob/main/Screenshots/Screenshot_20210727-130006.png" height="600" width="300" hspace="40">
 
 ## Contributing
 
