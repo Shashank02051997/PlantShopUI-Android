@@ -15,7 +15,6 @@ import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -53,7 +52,7 @@ fun ForidaPlantStoreView() {
         R.drawable.plant_store_5,
         R.drawable.plant_store_8,
     )
-    val popularPlantImagesList = listOf<Int>(
+    val popularPlantImagesList = listOf(
         R.drawable.plant_store_7,
         R.drawable.plant_store_6,
     )
@@ -88,10 +87,11 @@ fun ForidaPlantStoreView() {
                         horizontalArrangement = Arrangement.Start,
                         modifier = Modifier
                             .fillMaxWidth()
+                            .height(48.dp)
                     ) {
                         TextField(
                             modifier = Modifier
-                                .weight(0.84f),
+                                .weight(0.85f),
                             colors = TextFieldDefaults.textFieldColors(
                                 backgroundColor = white,
                                 focusedIndicatorColor = Color.Transparent,
@@ -115,7 +115,7 @@ fun ForidaPlantStoreView() {
                             onClick = { /*TODO*/ },
                             elevation = null,
                             modifier = Modifier
-                                .weight(0.16f),
+                                .weight(0.15f),
                             contentPadding = PaddingValues(top = 16.dp, bottom = 16.dp),
                             shape = RoundedCornerShape(12.dp),
                             colors = ButtonDefaults.buttonColors(
@@ -123,9 +123,10 @@ fun ForidaPlantStoreView() {
                             ),
                         ) {
                             Icon(
-                                imageVector = Icons.Default.Settings,
+                                painter = painterResource(R.drawable.filter),
                                 contentDescription = stringResource(R.string.text_filter_icon),
-                                tint = white
+                                tint = white,
+                                modifier = Modifier.size(20.dp, 20.dp)
                             )
                         }
                     }
