@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Plant Shop App UI</string>
-    <string name="title_activity_splash_screen">SplashScreen</string>
-    <string name="title_activity_welcome_screen">WelcomeScreen</string>
-    <string name="title_activity_login">Login</string>
     <string name="title_activity_store">Store</string>
     <string name="title_activity_forida_plant_store">Forida Plant Store</string>
     <string name="title_activity_payment">Payment</string>
@@ -18,5 +15,29 @@
     <string name="text_icon_shopping_cart">Shopping Cart</string>
     <string name="text_icon_settings">Settings</string>
     <string name="text_icon_person">Person</string>
+    
+    <string name="text_plant_catalog">Plant Catalog</string>
+    <string name="text_search">Search</string>
+    <string name="text_indoor_plant_image">Indoor Plant Image</string>
+    <string name="text_indoor">Indoor</string>
+    <string name="text_from">From</string>
+    <string name="text_amount_75">$75.00</string>
+    <string name="text_popular">Popular</string>
+    <string name="text_popular_plant_image">Popular Plant Image</string>
+    <string name="text_plant_image">Plant Image</string>
+    <string name="text_payment_method">Payment Method</string>
+    <string name="text_montstera">Montstera Philodendron</string>
+    <string name="text_plant_detail">Also known as the Swiss Cheese plant, is a species of following plant native to tropical forests of southern Mexico, south to Panama. It has been introduced to many tropical areas, and has become a in Hawaii</string>
+    <string name="text_mastercard_image">Mastercard Image</string>
+    <string name="text_paypal_image">Paypal Image</string>
+    <string name="text_visa">Visa</string>
+    <string name="text_packaging">Packaging</string>
+    <string name="text_tax">Tax</string>
+    <string name="text_total">Total</string>
+    <string name="text_confirm">Confirm</string>
+
+    <string name="text_rating">Rating: 4.5</string>
+    <string name="text_user_image">User Image</string>
+    <string name="text_visit">Visit</string>
 
 </resources>

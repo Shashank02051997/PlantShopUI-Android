@@ -75,7 +75,7 @@ fun ForidaPlantStoreView() {
                     Spacer(modifier = Modifier.height(28.dp))
 
                     Text(
-                        text = "Plant Catalog",
+                        text = stringResource(R.string.text_plant_catalog),
                         fontWeight = FontWeight.Bold,
                         fontSize = 20.sp,
                         color = annapolosBlue,
@@ -101,7 +101,12 @@ fun ForidaPlantStoreView() {
                             shape = RoundedCornerShape(12.dp),
                             singleLine = true,
                             onValueChange = { text = it },
-                            placeholder = { Text(text = "Search", color = veiledSpotlight) },
+                            placeholder = {
+                                Text(
+                                    text = stringResource(R.string.text_search),
+                                    color = veiledSpotlight
+                                )
+                            },
                             leadingIcon = {
                                 Icon(
                                     imageVector = Icons.Filled.Search,
@@ -179,12 +184,12 @@ fun ForidaPlantStoreView() {
                                             modifier = Modifier.height(180.dp),
                                             contentScale = ContentScale.Crop,
                                             painter = painterResource(indoorPlantImagesList[item]),
-                                            contentDescription = "Indoor Plant Image",
+                                            contentDescription = stringResource(R.string.text_indoor_plant_image),
                                         )
                                     }
                                     Spacer(modifier = Modifier.height(16.dp))
                                     Text(
-                                        text = "Indoor",
+                                        text = stringResource(R.string.text_indoor),
                                         fontSize = 12.sp,
                                         color = annapolosBlue,
                                     )
@@ -207,12 +212,12 @@ fun ForidaPlantStoreView() {
                                                 .wrapContentHeight()
                                         ) {
                                             Text(
-                                                text = "From",
+                                                text = stringResource(R.string.text_from),
                                                 fontSize = 12.sp,
                                                 color = annapolosBlue,
                                             )
                                             Text(
-                                                text = "$75.00",
+                                                text = stringResource(R.string.text_amount_75),
                                                 fontWeight = FontWeight.Bold,
                                                 fontSize = 14.sp,
                                                 color = annapolosBlue,
@@ -243,7 +248,7 @@ fun ForidaPlantStoreView() {
                     Spacer(modifier = Modifier.height(28.dp))
 
                     Text(
-                        text = "Popular",
+                        text = stringResource(R.string.text_popular),
                         fontWeight = FontWeight.Bold,
                         fontSize = 20.sp,
                         color = annapolosBlue,
@@ -273,7 +278,7 @@ fun ForidaPlantStoreView() {
                                         Image(
                                             contentScale = ContentScale.Crop,
                                             painter = painterResource(popularPlantImagesList[item]),
-                                            contentDescription = "Popular Plant Image",
+                                            contentDescription = stringResource(R.string.text_popular_plant_image),
                                         )
                                     }
 
@@ -286,7 +291,7 @@ fun ForidaPlantStoreView() {
                                             .wrapContentHeight()
                                     ) {
                                         Text(
-                                            text = "Indoor",
+                                            text = stringResource(R.string.text_indoor),
                                             fontSize = 12.sp,
                                             color = annapolosBlue,
                                         )
@@ -298,7 +303,7 @@ fun ForidaPlantStoreView() {
                                         )
                                         Spacer(modifier = Modifier.height(16.dp))
                                         Text(
-                                            text = "$75.00",
+                                            text = stringResource(R.string.text_amount_75),
                                             fontWeight = FontWeight.Bold,
                                             fontSize = 12.sp,
                                             color = annapolosBlue,

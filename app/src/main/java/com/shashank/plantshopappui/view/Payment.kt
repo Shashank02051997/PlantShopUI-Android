@@ -77,7 +77,7 @@ fun PaymentView() {
                                 Image(
                                     contentScale = ContentScale.Crop,
                                     painter = painterResource(R.drawable.plant_store_5),
-                                    contentDescription = "Plant Image",
+                                    contentDescription = stringResource(R.string.text_plant_image),
                                 )
                             }
 
@@ -91,14 +91,14 @@ fun PaymentView() {
                                 .fillMaxHeight()
                         ) {
                             Text(
-                                text = "Montstera Philodendron",
+                                text = stringResource(R.string.text_montstera),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 16.sp,
                                 color = annapolosBlue,
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
-                                text = "Also known as the Swiss Cheese plant, is a species of following plant native to tropical forests of southern Mexico, south to Panama. It has been introduced to many tropical areas, and has become a in Hawaii",
+                                text = stringResource(R.string.text_plant_detail),
                                 fontSize = 12.sp,
                                 color = annapolosBlue,
                             )
@@ -114,7 +114,7 @@ fun PaymentView() {
                     ) {
                         Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
                             Text(
-                                text = "Payment Method",
+                                text = stringResource(R.string.text_payment_method),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 16.sp,
                                 color = white,
@@ -138,7 +138,7 @@ fun PaymentView() {
                                     Image(
                                         painter = painterResource(R.drawable.mastercard),
                                         modifier = Modifier.fillMaxWidth(0.6f),
-                                        contentDescription = "Mastercard Image",
+                                        contentDescription = stringResource(R.string.text_mastercard_image),
                                     )
                                 }
                                 Spacer(modifier = Modifier.width(8.dp))
@@ -156,7 +156,7 @@ fun PaymentView() {
                                     Image(
                                         painter = painterResource(R.drawable.paypal),
                                         modifier = Modifier.fillMaxWidth(0.6f),
-                                        contentDescription = "Paypal Image",
+                                        contentDescription = stringResource(R.string.text_paypal_image),
                                     )
                                 }
                                 Spacer(modifier = Modifier.width(8.dp))
@@ -174,7 +174,7 @@ fun PaymentView() {
                                     Image(
                                         painter = painterResource(R.drawable.visa),
                                         modifier = Modifier.fillMaxWidth(0.6f),
-                                        contentDescription = "Paypal Image",
+                                        contentDescription = stringResource(R.string.text_visa),
                                     )
                                 }
                                 Spacer(modifier = Modifier.width(8.dp))
@@ -204,7 +204,7 @@ fun PaymentView() {
                                     .fillMaxWidth()
                             ) {
                                 Text(
-                                    text = "Montstera Philodendron",
+                                    text = stringResource(R.string.text_montstera),
                                     fontWeight = FontWeight.Bold,
                                     fontSize = 14.sp,
                                     color = white,
@@ -228,7 +228,7 @@ fun PaymentView() {
                                     .fillMaxWidth()
                             ) {
                                 Text(
-                                    text = "Packaging",
+                                    text = stringResource(R.string.text_packaging),
                                     fontSize = 14.sp,
                                     color = grey,
                                 )
@@ -245,7 +245,7 @@ fun PaymentView() {
                                     .fillMaxWidth()
                             ) {
                                 Text(
-                                    text = "Tax",
+                                    text = stringResource(R.string.text_tax),
                                     fontSize = 14.sp,
                                     color = grey,
                                 )
@@ -268,12 +268,12 @@ fun PaymentView() {
                                         .wrapContentHeight()
                                 ) {
                                     Text(
-                                        text = "Total",
+                                        text = stringResource(R.string.text_total),
                                         fontSize = 12.sp,
                                         color = grey,
                                     )
                                     Text(
-                                        text = "$100.00",
+                                        text = "$ 100.00",
                                         fontWeight = FontWeight.Bold,
                                         fontSize = 14.sp,
                                         color = cottonBall,
@@ -288,7 +288,7 @@ fun PaymentView() {
                                     ),
                                 ) {
                                     Text(
-                                        text = "Confirm",
+                                        text = stringResource(R.string.text_confirm),
                                         color = white,
                                         fontSize = 12.sp
                                     )

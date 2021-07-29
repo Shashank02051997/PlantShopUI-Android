@@ -112,7 +112,7 @@ fun StoreView() {
                                             )
                                             Spacer(modifier = Modifier.height(4.dp))
                                             Text(
-                                                text = "Rating: 4.5",
+                                                text = stringResource(R.string.text_rating),
                                                 fontSize = 12.sp,
                                                 color = annapolosBlue,
                                             )
@@ -140,7 +140,7 @@ fun StoreView() {
                                                                 .size(24.dp, 24.dp),
                                                             contentScale = ContentScale.Crop,
                                                             painter = painterResource(R.drawable.user_1),
-                                                            contentDescription = "Circle Image",
+                                                            contentDescription = stringResource(R.string.text_user_image),
                                                         )
                                                         Image(
                                                             modifier = Modifier
@@ -149,7 +149,7 @@ fun StoreView() {
                                                                 .size(24.dp, 24.dp),
                                                             contentScale = ContentScale.Crop,
                                                             painter = painterResource(R.drawable.user_2),
-                                                            contentDescription = "Circle Image",
+                                                            contentDescription = stringResource(R.string.text_user_image),
                                                         )
                                                         Image(
                                                             modifier = Modifier
@@ -158,7 +158,7 @@ fun StoreView() {
                                                                 .size(24.dp, 24.dp),
                                                             contentScale = ContentScale.Crop,
                                                             painter = painterResource(R.drawable.user_3),
-                                                            contentDescription = "Circle Image",
+                                                            contentDescription = stringResource(R.string.text_user_image),
                                                         )
                                                     }
                                                 }
@@ -174,7 +174,7 @@ fun StoreView() {
                                                     ),
                                                 ) {
                                                     Text(
-                                                        text = "Visit",
+                                                        text = stringResource(R.string.text_visit),
                                                         color = white,
                                                         fontSize = 12.sp
                                                     )
@@ -194,7 +194,7 @@ fun StoreView() {
                                     Image(
                                         contentScale = ContentScale.Crop,
                                         painter = painterResource(storePlantImagesList[item]),
-                                        contentDescription = "Plant Image",
+                                        contentDescription = stringResource(R.string.text_plant_image),
                                     )
                                 }
                             }
